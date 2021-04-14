@@ -1,15 +1,23 @@
-
-function getName(event, name)
+const name = function getName(ev)
 {
-  event.preventDefault();
+  ev.preventDefault();
 
-  var clientName;
-  clientName = (document.getElementById('name').value);
+  var clientName = function(name)
+  {
+    return('name');
+  };
+
+  var name =(document.getElementById('name').value);
   console.log(name);
-  // prompt('What is your name');
-  // console.log('Hi '+clientName+ ' we have received your response.');
-
+  alert('Hi '+name+ ' we have received your response.');
 }
+
+document.addEventListener('DOMContentLoaded', function load()
+{
+  document.getElementById('button').addEventListener('click', name);
+});
+
+
 
 // $(document).ready(function() {
 //   //CLICKABLES
