@@ -151,7 +151,13 @@
   display: none;
 }
 
-/* .clicked-1:hover, .clicked:hover, .clicked-2:hover{
-  text-decoration: underline;
-  color: blue;
-} */
+.clicked-7, .clicked-8, .clicked-9, .clicked-10
+{
+  cursor: pointer;
+  text-align: center;
+}
+
+#hidden-7, #hidden-8, #hidden-9, #hidden-10
+{
+  display: none;
+}

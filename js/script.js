@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  //CLICKABLES
   $('.clicked').click(function()
   {
     $('#showing').toggle();
@@ -17,34 +18,69 @@ $(document).ready(function() {
     $('#hidden-2').toggle();
   });
 
-  $('.clicked-3').click(function()
-  {
-    $('#showing-3').toggle();
-    $('#hidden-3').toggle();
+  // HOVERABLES
+  $('.clicked-3').hover(function() {
+    $('#showing-3').hide();
+    $('#hidden-3').show();
+  }, function() {
+    $('#hidden-3').hide();
+    $('#showing-3').show();
   });
 
-  $('.clicked-4').click(function()
-  {
-    $('#showing-4').toggle();
-    $('#hidden-4').toggle();
+  $('.clicked-4').hover(function() {
+    $('#showing-4').hide();
+    $('#hidden-4').show();
+  }, function() {
+    $('#hidden-4').hide();
+    $('#showing-4').show();
   });
 
-  $('.clicked-5').click(function()
-  {
-    $('#showing-5').toggle();
-    $('#hidden-5').toggle();
+  $('.clicked-5').hover(function() {
+    $('#showing-5').hide();
+    $('#hidden-5').show();
+  }, function() {
+    $('#hidden-5').hide();
+    $('#showing-5').show();
   });
 
-  $('.clicked-6').click(function()
-  {
-    $('#showing-6').toggle();
-    $('#hidden-6').toggle();
+  $('.clicked-6').hover(function() {
+    $('#showing-6').hide();
+    $('#hidden-6').show();
+  }, function() {
+    $('#hidden-6').hide();
+    $('#showing-6').show();
   });
 
-  // $('.clicked-3').hover(function() {
-  //   $('#showing-3').toggle();
-  // }, function() {
-  //   $('#hidden-3').toggle();
-  // });
+  $('.clicked-7').hover(function() {
+    $('#showing-7').hide();
+    $('#hidden-7').show();
+  }, function() {
+    $('#hidden-7').hide();
+    $('#showing-7').show();
+  });
+
+  $('.clicked-8').hover(function() {
+    $('#showing-8').hide();
+    $('#hidden-8').show();
+  }, function() {
+    $('#hidden-8').hide();
+    $('#showing-8').show();
+  });
+
+  $('.clicked-9').hover(function() {
+    $('#showing-9').hide();
+    $('#hidden-9').show();
+  }, function() {
+    $('#hidden-9').hide();
+    $('#showing-9').show();
+  });
+
+  $('.clicked-10').hover(function() {
+    $('#showing-10').hide();
+    $('#hidden-10').show();
+  }, function() {
+    $('#hidden-10').hide();
+    $('#showing-10').show();
+  });
 
 });
