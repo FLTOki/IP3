@@ -2,27 +2,39 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/node_modules/bootstrap/dist/css/bootstrap.css">
-    <script src="js/script.js"></script>
-    <script src="js/node_modules/jquery/dist/jquery.js" charset="utf-8"></script>
+    <!-- <script src="js/node_modules/jquery/dist/jquery.js" charset="utf-8"></script> -->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
     <title>DELANI STUDIO</title>
   </head>
   <body>
 
     <div class="container">
       <div class="first">
-        <div class="image"></div>
+        <div class="image">
+          <div class="delani">
+            <img src="assets/logo/logo.png" alt="">
+            <h1>WELCOME</h1>
+            <h2>TO DELANI STUDIO</h2>
+            <p>WHERE AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+            <div class="mouse">
+              <img src="assets/mouse_click.png" alt="">
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="second">
         <div class="about-us">
           <h2>ABOUT US</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-          <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+          <p>When you work with us, you are part of a team of committed collaboration. All aspects of our software development process are integrated, interactive and agile.</p>
+          <p>Our approach unifies design, development and product management to create exceptional products.</p>
+          <p>We start each project by understanding your business goals, the user's needs and the product requirements. Then we help translate them into effective and elegant solutions.</p>
+          </div>
         <div class="services">
           <div class="services-text">
             <h2>SERVICES</h2>
@@ -36,19 +48,58 @@
       <div class="third">
         <h2>WHAT WE DO</h2>
         <div class="row">
+
           <div class="col-md-4">
-            <img src="assets/services_icons/design_icon.png" alt="">
+            <div class="showing" id="showing">
+              <span class="clicked">
+                <img src="assets/services_icons/design_icon.png" alt="">
+              </span>
+              <p>DESIGN</p>
+            </div>
+            <div class="hidden" id="hidden">
+              <span class="clicked">
+                <h4>DESIGN</h4>
+                <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+              </span>
+            </div>
           </div>
+
           <div class="col-md-4">
-            <img src="assets/services_icons/dev_icon.png" alt="">
+            <div class="showing" id="showing-1">
+              <span class="clicked-1">
+                <img src="assets/services_icons/dev_icon.png" alt="">
+              </span>
+              <p>DEVELOPMENT</p>
+            </div>
+            <div class="hidden" id="hidden-1">
+              <span class="clicked-1">
+                <h4>DEVELOPMENT</h4>
+                <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+              </span>
+            </div>
           </div>
+
           <div class="col-md-4">
-            <img src="assets/services_icons/product_icon.png" alt="">
+            <div class="showing" id="showing-2">
+              <span class="clicked-2">
+                <img src="assets/services_icons/product_icon.png" alt="">
+              </span>
+              <p>PRODUCT MANAGEMENT</p>
+            </div>
+            <div class="hidden" id="hidden-2">
+              <span class="clicked-2">
+                <h4>PPRODUCT MANAGEMENT</h4>
+                <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.
+                This iterative process allows for changes as business requirements evolve.</p>
+              </span>
+            </div>
           </div>
         </div>
 
         <h2>PORTFOLIO</h2>
-        <div class="row">
+        <div class="row third-2">
           <div class="col-sm-3">
             <img src="/home/flt_oki/Documents/moringa-prep/IP3/assets/portfolio/work1.jpg" alt="">
           </div>

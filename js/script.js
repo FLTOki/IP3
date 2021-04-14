@@ -1,17 +1,20 @@
 $(document).ready(function() {
-  const reply = function reply(ev)
+  $('.clicked').click(function()
   {
-    ev.preventDefault();
+    $('#showing').toggle();
+    $('#hidden').toggle();
+  });
 
-    var clientName = function(name)
-    {
-      alert ('HI' +name+ 'We have received your message. Thank you');
-    };
+  $('.clicked-1').click(function()
+  {
+    $('#showing-1').toggle();
+    $('#hidden-1').toggle();
+  });
 
-    var name =(document.getElementById('name').value);
-    console.log(name);
-  }
-
-
+  $('.clicked-2').click(function()
+  {
+    $('#showing-2').toggle();
+    $('#hidden-2').toggle();
+  });
 
 });

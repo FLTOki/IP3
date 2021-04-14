@@ -9,6 +9,19 @@
   background-size: 100% 100%;
 }
 
+.delani
+{
+  padding-top: 200px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.mouse
+{
+  padding-top: 200px;
+}
+
 .second
 {
   padding-top: 50px;
@@ -47,6 +60,7 @@
   text-align: center;
   align-items: center;
 }
+
 
 .row
 {
@@ -97,3 +111,20 @@
 {
   text-align: center;
 }
+
+/* JAVASCRIPT STYLING STARTS HERE */
+
+.clicked, .clicked-1, .clicked-2
+{
+  cursor: pointer;
+}
+
+#hidden, #hidden-1, #hidden-2
+{
+  display: none;
+}
+
+/* .clicked-1:hover, .clicked:hover, .clicked-2:hover{
+  text-decoration: underline;
+  color: blue;
+} */
