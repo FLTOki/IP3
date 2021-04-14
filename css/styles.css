@@ -61,6 +61,16 @@
   align-items: center;
 }
 
+.portfolio
+{
+  display: flex;
+}
+
+.portfolio img
+{
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
 
 .row
 {
@@ -114,12 +124,12 @@
 
 /* JAVASCRIPT STYLING STARTS HERE */
 
-.clicked, .clicked-1, .clicked-2
+.clicked, .clicked-1, .clicked-2, .clicked-3, .clicked-4, .clicked-5, .clicked-6
 {
   cursor: pointer;
 }
 
-#hidden, #hidden-1, #hidden-2
+#hidden, #hidden-1, #hidden-2, #hidden-3, #hidden-4, #hidden-5, #hidden-6
 {
   display: none;
 }
