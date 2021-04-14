@@ -204,12 +204,19 @@
       <div class="fourth">
         <h2>CONTACT US</h2>
         <div class="contacts">
-          <form class="">
+          <form class="" name="inputform">
             <div class="input">
-              <input type="text" name="name" value="" placeholder="Name..." required>
-              <input type="email" name="email" value="" placeholder="Email..." required>
+              <input type="text" id="name" name="name" value="" placeholder="Name..." required>
+              <input type="email" id="email" name="email" value="" placeholder="Email..." required>
             </div>
               <textarea name="message" rows="8" cols="80" placeholder="Your message here..." required></textarea>
+              <br>
+              <div class="form-group" id="button">
+                  <input type="submit" id="button"
+                  class="btn btn-outline-light btn-sm"
+                  value="Send" onclick="getName(document.inputform.name)">
+              </div>
+              <!-- <button type="submit" name="button" class="btn btn-outline-light btn-sm">SEND</button> -->
           </form>
         </div>
       </div>
