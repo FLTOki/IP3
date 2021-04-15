@@ -29,6 +29,10 @@ $(document).ready(function() {
     $('#hidden-2').toggle();
   });
 
+  $('.output').click(function() {
+    $('#output').hide();
+  });
+
   // HOVERABLES
   $('.clicked-3').hover(function() {
     $('#showing-3').hide();

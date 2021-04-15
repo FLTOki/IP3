@@ -17,9 +17,21 @@
   font-weight: bold;
 }
 
+.delani h1
+{
+  padding-top: 20px;
+  /* padding-bottom: 10px; */
+  font-weight: bolder;
+}
+
+.delani p
+{
+  font-size: 10px;
+}
+
 .mouse
 {
-  padding-top: 200px;
+  padding-top: 140px;
 }
 
 .second
@@ -118,6 +130,14 @@
   color: white;
 }
 
+.output
+{
+  box-shadow: 0 0 25px 1px rgba(0, 0, 0, .3);
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .footer
 {
   padding: 30px;
@@ -139,7 +159,6 @@
 }
 
 /* JAVASCRIPT STYLING STARTS HERE */
-
 .clicked, .clicked-1, .clicked-2, .clicked-3, .clicked-4, .clicked-5, .clicked-6
 {
   cursor: pointer;
