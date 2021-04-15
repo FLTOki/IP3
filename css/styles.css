@@ -163,30 +163,63 @@
 }
 
 /* //fadeables */
-.image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
+.image-faded {
+  overflow: hidden;
+  height: 250px;
+  width: 250px;
+  position: relative;
+  cursor: pointer;
+  margin: 0 15px;
+  /* box-shadow: 0 0 25px 1px rgba(0, 0, 0, .3); */
+  transition: .5s;
+  background-color: #555
 }
 
-.middle {
-  transition: .5s ease;
-  opacity: 0;
+.image-faded:after {
+  content: '';
   position: absolute;
+  z-index: 1;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  width: 500px;
+  height: 500px;
+  transform: translate(-140%, -50%);
+  background-color: #ffe6e6;
+  opacity: 0.8;
+  border-radius: 50%;
+  transition: .8s
 }
 
-.container:hover .image {
-  opacity: 0.3;
+.image-faded:hover:after {
+    transform: translate(-50%, -50%)
 }
 
-.container:hover .middle {
-  opacity: 1;
+.image-faded:hover img {
+    transform: translate(-50%, -50%) /*scale(1.3) rotate(20deg)*/
+}
+
+.img {
+    position: absolute;
+    height: 110%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .8s
+}
+
+.i {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-2000px, -50%);
+    color: black;
+    font-size: 20px;
+    transition: .8s;
+    transition-timing-function: ease-in
+}
+
+.image-faded:hover .i {
+    transform: translate(-50%, -50%);
+    transition-timing-function: ease
 }
