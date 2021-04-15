@@ -1,24 +1,13 @@
-const name = function getName(ev)
-{
-  ev.preventDefault();
+$(document).ready(function() {
+  $("form#inputform").submit(function(event) {
+    event.preventDefault();
 
-  var clientName = function(name)
-  {
-    return('name');
-  };
+    var name = ($("#name").val());
+    console.log('name');
+    $("#output").text('Hi '+name+ ' we have received your response. Thank You');
+  });
 
-  var name =(document.getElementById('name').value);
-  console.log(name);
-  alert('Hi '+name+ ' we have received your response.');
-
-  ev.reset();
-}
-
-document.addEventListener('DOMContentLoaded', function load()
-{
-  document.getElementById('button').addEventListener('click', name);
 });
-
 
 $(document).ready(function() {
   //CLICKABLES
