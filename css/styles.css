@@ -36,7 +36,6 @@
 .delani h1
 {
   padding-top: 20px;
-  /* padding-bottom: 10px; */
   font-weight: bolder;
 }
 
@@ -174,7 +173,6 @@
   text-align: center;
 }
 
-/* JAVASCRIPT STYLING STARTS HERE */
 .clicked, .clicked-1, .clicked-2, .clicked-3, .clicked-4, .clicked-5, .clicked-6
 {
   cursor: pointer;
@@ -197,7 +195,6 @@
   display: none;
 }
 
-/* //fadeables */
 .image-faded {
   overflow: hidden;
   height: 250px;
