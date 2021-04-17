@@ -36,7 +36,7 @@ Built by: Musyoki Jim.
 
 This is a rework of the Delani Studio website. It contains various technologies learnt through out the week meeting all the requirements listed on the page. 
 <a href="https://github.com/othneildrew/Best-README-Template">
-  <img src="images/intro_page.png" alt="Logo" width="850" height="650">
+  <img src="assets/intro_page.png" alt="Logo" width="850" height="650">
 </a>
 
 ### Built Using
@@ -55,7 +55,7 @@ The website helps you learn more about what goes on at Delani Studio. The What W
   <img src="assets/what_we_do.png" width="800" height="300">
   
 In the portfolio section, you can preview some of our projects, just hover over the images to get a clickable title that redirects you to the previews.
-  <img src="assests/portfolio.png" src="800" height="500">
+  <img src="assets/portfolio.png" src="800" height="500">
 </p>
 
 # License
