@@ -22,7 +22,7 @@
             <li><a href="#built-using">Built Using</a></li>
           </ul>
         </li>
-        <li><a href="#license">How to Use</a></li>
+        <li><a href="#Navigating">Navigating</a></li>
         <li><a href="#license">License</a></li>
         <li><a href="#contact">Contact</a></li>
       </ol>
@@ -57,9 +57,6 @@ The website helps you learn more about what goes on at Delani Studio. The What W
 In the portfolio section, you can preview some of our projects, just hover over the images to get a clickable title that redirects you to the previews.
   <img src="assests/portfolio.png" src="800" height="500">
 </p>
-<a href="https://github.com/othneildrew/Best-README-Template">
-  <img src="images/form.png" alt="Logo" width="850" height="650">
-</a>
 
 # License
 Distributed under the MIT License. See `LICENSE` for more information.
