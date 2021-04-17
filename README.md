@@ -49,13 +49,13 @@ I used the following resources in its development
 # Navigating
 <p>
 The first section lets you learn more about our policies, methods and strategies.
-  <img src="assets/about_us.png" width="800" height="600">
+  <img src="assets/readme_images/about_us.png" width="800" height="600">
 
 The website helps you learn more about what goes on at Delani Studio. The What We Do section contains information about how we go about the process of making the best application for you. To read more, click on the icons.
-  <img src="assets/what_we_do.png" width="800" height="300">
+  <img src="assets/readme_images/what_we_do.png" width="800" height="300">
   
 In the portfolio section, you can preview some of our projects, just hover over the images to get a clickable title that redirects you to the previews.
-  <img src="assets/portfolio.png" src="800" height="500">
+  <img src="assets/readme_images/portfolio.png" width="800" height="500">
 </p>
 
 # License
