@@ -36,7 +36,7 @@ Built by: Musyoki Jim.
 
 This is a rework of the Delani Studio website. It contains various technologies learnt through out the week meeting all the requirements listed on the page. 
 <a href="https://github.com/othneildrew/Best-README-Template">
-  <img src="assets/intro_page.png" alt="Logo" width="850" height="650">
+  <img src="assets/readme_images/intro_page.png" alt="Logo" width="850" height="650">
 </a>
 
 ### Built Using
@@ -49,7 +49,7 @@ I used the following resources in its development
 # Navigating
 <p>
 The first section lets you learn more about our policies, methods and strategies.
-  <img src="assets/readme_images/about_us.png" width="800" height="600">
+  <img src="assets/readme_images/about_us.png" width="800" height="500">
 
 The website helps you learn more about what goes on at Delani Studio. The What We Do section contains information about how we go about the process of making the best application for you. To read more, click on the icons.
   <img src="assets/readme_images/what_we_do.png" width="800" height="300">
