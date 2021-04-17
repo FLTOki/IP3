@@ -34,7 +34,7 @@ Built by: Musyoki Jim.
 
 ## About The Project
 
-This is a rework of the Delani Studio website. It contains various technologies learnt through out the week meeting all the requirements listed on the page. 
+<p>This is a rework of the Delani Studio website. It contains various technologies learnt through out the week meeting all the requirements listed on the page.</p>
 <a href="https://github.com/othneildrew/Best-README-Template">
   <img src="assets/readme_images/intro_page.png" alt="Logo" width="850" height="650">
 </a>
@@ -49,14 +49,17 @@ I used the following resources in its development
 # Navigating
 <p>
 The first section lets you learn more about our policies, methods and strategies.
-  <img src="assets/readme_images/about_us.png" width="800" height="500">
-
-The website helps you learn more about what goes on at Delani Studio. The What We Do section contains information about how we go about the process of making the best application for you. To read more, click on the icons.
-  <img src="assets/readme_images/what_we_do.png" width="800" height="300">
-  
-In the portfolio section, you can preview some of our projects, just hover over the images to get a clickable title that redirects you to the previews.
-  <img src="assets/readme_images/portfolio.png" width="800" height="500">
 </p>
+  <img src="assets/readme_images/about_us.png" width="800" height="500">
+<p>
+The website helps you learn more about what goes on at Delani Studio. The What We Do section contains information about how we go about the process of making the best application for you. To read more, click on the icons.
+</p>
+  <img src="assets/readme_images/what_we_do.png" width="800" height="300">
+
+<p>
+In the portfolio section, you can preview some of our projects, just hover over the images to get a clickable title that redirects you to the previews.
+</p>
+  <img src="assets/readme_images/portfolio.png" width="800" height="500">
 
 # License
 Distributed under the MIT License. See `LICENSE` for more information.
