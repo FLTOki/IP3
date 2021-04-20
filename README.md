@@ -12,7 +12,7 @@
     ·
     <a href="#">Request Feature</a>
   </p>
-  
+
    <details open="open">
       <summary>TABLE OF CONTENTS</summary>
       <ol>
@@ -31,7 +31,7 @@
 
 ## Author
 Built by: Musyoki Jim.
-
+[TestAuthor](https://github.com/Y2SEM2/IP3)
 ## About The Project
 
 <p>This is a rework of the Delani Studio website. It contains various technologies learnt through out the week meeting all the requirements listed on the page.</p>
